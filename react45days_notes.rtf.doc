@@ -1,0 +1,1442 @@
+{\rtf1\fbidis\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 @Microsoft JhengHei UI;}{\f1\fnil\fcharset1 Segoe UI Emoji;}{\f2\fnil @Microsoft JhengHei UI;}{\f3\fnil\fcharset1 Segoe UI Symbol;}{\f4\fnil\fcharset1 Segoe UI Symbol;}{\f5\fnil\fcharset1 Cambria Math;}{\f6\fnil Cambria Math;}{\f7\fnil\fcharset0 Cambria Math;}{\f8\fnil\fcharset1 Segoe UI Emoji;}}
+{\colortbl ;\red255\green0\blue0;}
+{\stylesheet{ Normal;}{\s1 heading 1;}{\s2 heading 2;}{\s3 heading 3;}{\s4 heading 4;}}
+{\*\generator Riched20 10.0.19041}{\*\mmathPr\mmathFont5\mwrapIndent1440 }\viewkind4\uc1 
+\pard\widctlpar\qc\f0\fs22  \b\fs52 React Notes\par
+\par
+Solitaire Infosys\par
+
+\pard\keep\keepn\noline\widctlpar\sb100\sa100\b0\fs24  \par
+
+\pard\keep\keepn\noline\widctlpar\fs20\par
+
+\pard\keep\keepn\noline\widctlpar\s2\sb100\sa100\b\f1\fs36\u-10178?\u-8706?\f2  \f0 Introduction to HTML\par
+
+\pard\keep\keepn\noline\widctlpar\sb100\sa100 HTML (HyperText Markup Language)\b0\fs24  is the standard markup language used to create and structure content on the web\par
+\b Basic Structure\par
+\b0\fs20 <!DOCTYPE html>\par
+
+\pard\keep\keepn\noline\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656 <html>\par
+<head>\par
+  <title>My Web Page</title>\par
+</head>\par
+<body>\par
+  <h1>Welcome</h1>\par
+  <p>This is a paragraph.</p>\par
+</body>\par
+</html>\fs24\par
+
+\pard\keep\keepn\noline\widctlpar\fs20\par
+
+\pard\keep\keepn\noline\widctlpar\s2\sb100\sa100\b\f1\fs36\u-10180?\u-8201?\u-497?\f2  \f0 Semantic Tags\par
+
+\pard\keep\keepn\noline\widctlpar\sb100\sa100\b0\fs24 Semantic tags clearly describe the meaning of the content in the browser and to developers.\par
+
+\pard\keep\keepn\noline\widctlpar\s3\sb100\sa100\b\f3\fs27\u-10179?\u-8903?\f2  \f0\fs20 section\fs27\par
+
+\pard\keep\keepn\noline\widctlpar\sb100\sa100\b0\fs24 Defines a section of a document (e.g., chapters, headers, footers).\par
+
+\pard\keep\keepn\noline\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\fs20 <section>\par
+  <h2>About Us</h2>\par
+  <p>This is the about section.</p>\par
+</section>\fs24\par
+
+\pard\keep\keepn\noline\widctlpar\s3\sb100\sa100\b\f3\fs27\u-10179?\u-8903?\f2  \f0\fs20 article\fs27\par
+
+\pard\keep\keepn\noline\widctlpar\sb100\sa100\b0\fs24 Represents a self-contained piece of content (e.g., blog post, news article).\par
+
+\pard\keep\keepn\noline\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\fs20 <article>\par
+  <h2>Blog Post Title</h2>\par
+  <p>Written by John Doe</p>\par
+</article>\fs24\par
+
+\pard\keep\keepn\noline\widctlpar\s3\sb100\sa100\b\f3\fs27\u-10179?\u-8903?\f2  \f0\fs20 nav\fs27\par
+
+\pard\keep\keepn\noline\widctlpar\sb100\sa100\b0\fs24 Defines navigation links.\par
+
+\pard\keep\keepn\noline\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\fs20 <nav>\par
+  <ul>\par
+    <li><a href="#home">Home</a></li>\par
+    <li><a href="#contact">Contact</a></li>\par
+  </ul>\par
+</nav>\fs24\par
+
+\pard\keep\keepn\noline\widctlpar\fs20\par
+
+\pard\keep\keepn\noline\widctlpar\s2\sb100\sa100\b\f3\fs36\u-10180?\u-8267?\f2  \f0 Embed Media (Audio & Video)\par
+
+\pard\keep\keepn\noline\widctlpar\s3\sb100\sa100\f3\fs27\u-10179?\u-8903?\f2  \f0 Audio Example\par
+
+\pard\keep\keepn\noline\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\b0\fs20 <audio controls>\par
+  <source src="sound.mp3" type="audio/mpeg">\par
+  Your browser does not support the audio element.\par
+</audio>\fs24\par
+
+\pard\keep\keepn\noline\widctlpar\s3\sb100\sa100\b\f3\fs27\u-10179?\u-8903?\f2  \f0 Video Example\par
+
+\pard\keep\keepn\noline\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\b0\fs20 <video controls autoplay loop muted width="320">\par
+  <source src="movie.mp4" type="video/mp4">\par
+  Your browser does not support the video tag.\par
+</video>\fs24\par
+
+\pard\keep\keepn\noline\widctlpar\s4\sb100\sa100\qj\b Attributes:\par
+
+\pard\keep\keepn\noline\widctlpar\li720\sb100\sa100\qj\b0\fs20 controls\fs24  \f2\endash  \f0 shows play/pause buttons\fs20\par
+autoplay\fs24  \f2\endash  \f0 starts playing automatically\par
+\fs20 loop\fs24  \f2\endash  \f0 repeats media\par
+\fs20 muted\fs24  \f2\endash  \f0 mutes audio by default\par
+
+\pard\keep\keepn\noline\widctlpar\fi-360\li1440\sb100\sa100\tx720\fs20\'b7\tab\par
+
+\pard\keep\keepn\noline\widctlpar\par
+
+\pard\keep\keepn\noline\widctlpar\s2\sb100\sa100\b\f1\fs36\u9881?\u-497?\f2  \f0 Web Components\par
+
+\pard\keep\keepn\noline\widctlpar\sb100\sa100 Web Components\b0\fs24  allow you to create reusable custom elements with encapsulated functionality.\par
+
+\pard\keep\keepn\noline\widctlpar\s3\sb100\sa100\b\f3\fs27\u-10179?\u-8903?\f2  \f0 Template Example\par
+
+\pard\keep\keepn\noline\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\b0\fs20 <template id="my-template">\par
+  <style>\par
+    p \{ color: red; \}\par
+  </style>\par
+  <p>Hello from template!</p>\par
+</template>\par
+\par
+<div id="container"></div>\par
+\par
+<script>\par
+  const tmpl = document.getElementById("my-template");\par
+  const clone = tmpl.content.cloneNode(true);\par
+  document.getElementById("container").appendChild(clone);\par
+</script>\fs24\par
+
+\pard\keep\keepn\noline\widctlpar\s3\sb100\sa100\b\f3\fs27\u-10179?\u-8903?\f2  \f0 Shadow DOM Example\par
+
+\pard\keep\keepn\noline\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\b0\fs20 <custom-element></custom-element>\par
+\par
+<script>\par
+  class CustomElement extends HTMLElement \{\par
+    constructor() \{\par
+      super();\par
+      const shadow = this.attachShadow(\{ mode: 'open' \});\par
+      shadow.innerHTML = `<p>This is shadow DOM content</p>`;\par
+    \}\par
+  \}\par
+\par
+  customElements.define('custom-element', CustomElement);\par
+</script>\fs24\par
+
+\pard\keep\keepn\noline\widctlpar\fs20\par
+
+\pard\keep\keepn\noline\widctlpar\s2\sb100\sa100\b\f3\fs36\u-10179?\u-8948?\f2  \f0 HTML APIs with JavaScript\par
+
+\pard\keep\keepn\noline\widctlpar\sb100\sa100\b0\fs24 HTML5 provides APIs to interact with the browser and devices using JavaScript.\par
+
+\pard\keep\keepn\noline\widctlpar\s3\sb100\sa100\b\f3\fs27\u-10179?\u-8903?\f2  \f0 Geolocation API\par
+
+\pard\keep\keepn\noline\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\b0\fs20 <button onclick="getLocation()">Get Location</button>\par
+<p id="output"></p>\par
+\par
+<script>\par
+  function getLocation() \{\par
+    if (navigator.geolocation) \{\par
+      navigator.geolocation.getCurrentPosition(position => \{\par
+        document.getElementById("output").innerText =\par
+          `Latitude: $\{position.coords.latitude\}, Longitude: $\{position.coords.longitude\}`;\par
+      \});\par
+    \} else \{\par
+      document.getElementById("output").innerText = "Geolocation not supported.";\par
+    \}\par
+  \}\par
+</script>\fs24\par
+
+\pard\keep\keepn\noline\widctlpar\s3\sb100\sa100\b\f3\fs27\u-10179?\u-8903?\f2  \f0 Drag and Drop API\par
+
+\pard\keep\keepn\noline\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\b0\fs20 <div id="drag1" draggable="true" ondragstart="drag(event)">Drag me</div>\par
+<div id="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)" style="width:200px;height:100px;border:1px solid black;"></div>\par
+\par
+<script>\par
+  function allowDrop(ev) \{\par
+    ev.preventDefault();\par
+  \}\par
+\par
+  function drag(ev) \{\par
+    ev.dataTransfer.setData("text", ev.target.id);\par
+  \}\par
+\par
+  function drop(ev) \{\par
+    ev.preventDefault();\par
+    const data = ev.dataTransfer.getData("text");\par
+    ev.target.appendChild(document.getElementById(data));\par
+  \}\par
+</script>\fs24\par
+
+\pard\keep\keepn\noline\widctlpar\fs20\par
+
+\pard\keep\keepn\noline\widctlpar\sb100\sa100\fs24 Let me know if you want this as a downloadable document or formatted presentation!\par
+
+\pard\widctlpar\par
+\f2  \f3\u-10179?\u-9000?\f2  \b\f0\fs32 Advanced HTML Notes\ul\b0\i\fs24\par
+\ulnone\i0\par
+ \par
+\b\f2\fs32  \f3\u-10180?\u-8267?\f2  \f0 Embedding Audio and Video Files\par
+\b0\fs24\par
+You can embed multimedia directly into web pages using the `<audio>` and `<video>` tags.\par
+\par
+\f2   \b\f4\u9989?\f2  \f0 Audio Example:\b0\par
+\par
+```html\par
+<audio controls>\par
+  <source src="audio-file.mp3" type="audio/mpeg">\par
+  Your browser does not support the audio element.\par
+</audio>\par
+```\par
+\par
+\f2   \b\f4\u9989?\f2  \f0 Video Example:\b0\par
+\par
+```html\par
+<video width="320" height="240" controls>\par
+  <source src="video-file.mp4" type="video/mp4">\par
+  Your browser does not support the video tag.\par
+</video>\par
+```\par
+\par
+\par
+\b\f2  \f1\u-10180?\u-8293?\u-497?\f2  \f0 Control Media Using HTML Attributes\par
+\b0\par
+These attributes can be used on `<audio>` and `<video>` tags to enhance user experience:\par
+\par
+| Attribute  | Description                           |\par
+| ---------- | ------------------------------------- |\par
+| `controls` | Shows play, pause, and volume buttons |\par
+| `autoplay` | Starts playing automatically          |\par
+| `loop`     | Repeats media after it ends           |\par
+| `muted`    | Mutes audio by default                |\par
+\par
+\f2  \b\f3\u-10180?\u-8283?\f2  \f0 Example with All Attributes:\b0\par
+\par
+\par
+<video src="clip.mp4" controls autoplay loop muted width="400"></video>\par
+\b\par
+\f1\u-10178?\u-8727?\f2  \f0 Introduction to Custom Web Components\par
+\b0\par
+Custom Web Components allow developers to define new HTML tags with reusable code and isolated style/logic.\par
+\par
+\b\f3\u-10179?\u-9055?\f2  \f0 Key Concepts:\b0\par
+\par
+1. **Custom Elements** \f2\endash  \f0 Define new HTML tags.\par
+2. **Shadow DOM** \f2\endash  \f0 Isolate component structure and styles.\par
+3. **HTML Templates** \f2\endash  \f0 Define reusable chunks of HTML.\par
+\par
+\b\par
+\f3\fs32\u-10179?\u-9008?\f2  \f0 Using `<template>` and Shadow DOM\par
+\b0\fs24\par
+\b\f1\u-10178?\u-8719?\f2  \f0 HTML Template Example:\b0\par
+\par
+```html\par
+<template id="card-template">\par
+  <style>\par
+    .card \{ border: 1px solid #ccc; padding: 10px; border-radius: 5px; \}\par
+  </style>\par
+  <div class="card">\par
+    <h2>Title</h2>\par
+    <p>Content goes here...</p>\par
+  </div>\par
+</template>\par
+```\par
+\b\par
+\f2  \f1\u-10178?\u-8727?\f2  \f0 Shadow DOM Custom Component:\par
+\b0\par
+```html\par
+<custom-card></custom-card>\par
+\par
+<script>\par
+  class CustomCard extends HTMLElement \{\par
+    constructor() \{\par
+      super();\par
+      const shadow = this.attachShadow(\{ mode: 'open' \});\par
+      const template = document.getElementById('card-template');\par
+      const clone = template.content.cloneNode(true);\par
+      shadow.appendChild(clone);\par
+    \}\par
+  \}\par
+\par
+  customElements.define('custom-card', CustomCard);\par
+</script>\par
+
+\pard\sa200\sl276\slmult1\tx5310 Here are **well-organized notes** on **Advanced CSS** topics, complete with examples: \par
+\f2\par
+\b\f3\fs32\u-10180?\u-8280?\f2  \f0 Advanced CSS Notes\b0\fs24\par
+\par
+\b\f2  \f3\u-10179?\u-8959?\f2  \f0 1. Transitions for Smooth Style Changes\b0\par
+\par
+CSS transitions allow you to smoothly animate property changes (like color, size, position) over a duration.\par
+\b\f2  \f4\u9989?\f2  \f0 Basic Example:\b0\par
+```html\par
+<style>\par
+  .button \{\par
+    background-color: blue;\par
+    color: white;\par
+    padding: 10px 20px;\par
+    transition: background-color 0.3s ease, transform 0.3s ease;\par
+  \}\par
+\par
+  .button:hover \{\par
+    background-color: green;\par
+    transform: scale(1.1);\par
+  \}\par
+</style>\par
+\par
+<button class="button">Hover Me</button>\par
+\b\f2  \f3\u-10179?\u-8995?\f2  \f0 Key Properties:\par
+\b0\par
+* `transition-property`: what to animate\par
+* `transition-duration`: how long\par
+* `transition-timing-function`: easing effect\par
+* `transition-delay`: wait time before starting\par
+\par
+\b\f2  \f1\u-10180?\u-8290?\u-497?\f2  \f0 2. Animations Using `@keyframes` Rules\par
+\b0\par
+The `@keyframes` rule lets you create custom animations with multiple steps.\par
+\par
+\f4\u9989?\f2  \f0 Example:\par
+\par
+```html\par
+<style>\par
+  .box \{\par
+    width: 100px;\par
+    height: 100px;\par
+    background: red;\par
+    animation: slideIn 2s ease-in-out infinite;\par
+  \}\par
+\par
+  @keyframes slideIn \{\par
+    0%   \{ transform: translateX(0); \}\par
+    50%  \{ transform: translateX(150px); \}\par
+    100% \{ transform: translateX(0); \}\par
+  \}\par
+</style>\par
+\par
+<div class="box"></div>\par
+```\par
+\b\f2  \f3\u-10179?\u-8995?\f2  \f0 Common Animation Properties:\b0\par
+\par
+* `animation-name`\par
+* `animation-duration`\par
+* `animation-timing-function`\par
+* `animation-iteration-count`\par
+* `animation-delay`\par
+\b\par
+\f2  \f3\u-10179?\u-8975?\f2  \f0 3. Media Queries for Responsiveness\par
+\b0\par
+Media queries let you apply different styles based on screen size or device type.\par
+\b\f4\u9989?\f2  \f0 Example:\b0\par
+\par
+```html\par
+<style>\par
+  body \{\par
+    font-size: 18px;\par
+    background-color: white;\par
+  \}\par
+\par
+  @media (max-width: 600px) \{\par
+    body \{\par
+      font-size: 14px;\par
+      background-color: lightgray;\par
+    \}\par
+  \}\par
+</style>\par
+```\par
+\par
+#### \f3\u-10179?\u-8995?\f2  \f0 Useful Conditions:\par
+\par
+* `max-width`: screen is less than or equal to value\par
+* `min-width`: screen is greater than or equal to value\par
+* `orientation: landscape` or `portrait`\par
+\par
+\b\f1\u-10179?\u-8795?\u-497?\f2  \f0 4. Adapt Design to Screen Size\par
+\b0\par
+To make layouts **responsive**, use flexible layouts, relative units, and CSS features like Flexbox or Grid.\par
+\par
+\b\f4\u9989?\f2  \f0 Flexbox Layout Example:\b0\par
+\par
+```html\par
+<style>\par
+  .container \{\par
+    display: flex;\par
+    flex-wrap: wrap;\par
+    gap: 10px;\par
+  \}\par
+\par
+  .item \{\par
+    flex: 1 1 200px;\par
+    height: 100px;\par
+    background: coral;\par
+  \}\par
+</style>\par
+\par
+<div class="container">\par
+  <div class="item"></div>\par
+  <div class="item"></div>\par
+  <div class="item"></div>\par
+</div>\par
+```\par
+\b\f3\u-10179?\u-9009?\f2  \f0 Use These for Adaptability:\b0\par
+\par
+* `em`, `rem`, `%`, `vw`, `vh`\par
+* CSS Grid or Flexbox for layout\par
+* Media queries for breakpoints\par
+\par
+\b\fs32\par
+\f2  \f1\u-10178?\u-8719?\f2  \f0 CSS Frameworks Notes\par
+\b0\fs24\par
+\b\f2  \f1\u-10180?\u-8404?\u-497?\f2  \f0 1. Tailwind CSS: Utility-First Framework\b0\par
+\par
+Tailwind CSS uses a *utility-first* approach, meaning you apply styles directly in your HTML using pre-defined utility classes (instead of writing custom CSS rules).\par
+\par
+\b\f2\fs28  \f4\u9989?\f2  \f0 Example:\b0\fs24\par
+\par
+```html\par
+<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">\par
+  Click Me\par
+</button>\par
+```\par
+\b\fs28\par
+\f3\u-10179?\u-8947?\f2  \f0 Benefits:\par
+\b0\fs24\par
+* Rapid styling without writing custom CSS\par
+* Encourages consistency\par
+* Easy to maintain with utility classes\par
+* Responsive and dark mode built-in\par
+\b\fs28\par
+\f2  \f3\u-10179?\u-9055?\f2  \f0 Responsive Example:\par
+\b0\fs24\par
+```html\par
+<div class="text-base sm:text-lg md:text-xl lg:text-2xl">\par
+  Responsive Text Size\par
+</div>\par
+\b\fs28\par
+\f2  \f1\u9997?\u-497?\f2  \f0 2. Write Less, Style More Efficiently\par
+\b0\fs24\par
+With Tailwind:\par
+\par
+*You dont write new CSS rules for every component.\par
+* You reuse small, atomic utility classes.\par
+* You avoid repeating styles in multiple selectors.\par
+\cf1\f4\u10060?\f2  \f0 Traditional CSS:\cf0\par
+\par
+```css\par
+.btn \{\par
+  background-color: blue;\par
+  color: white;\par
+  padding: 10px 20px;\par
+\}\par
+```\par
+\b\fs28\par
+\f2  \f4\u9989?\f2  \f0 Tailwind:\par
+\b0\fs24\par
+```html\par
+<button class="bg-blue-500 text-white px-4 py-2">Button</button>\par
+\par
+\b\f1\fs28\u-10179?\u-8480?\u-497?\f2  \f0 3. PostCSS: Process Modern CSS\b0\fs24\par
+PostCSS is a CSS tool that processes your CSS using JavaScript plugins. It allows you to:\par
+\par
+ Use future CSS features today (e.g., nesting, custom properties)\par
+Minify and optimize CSS\par
+Integrate tools like Tailwind, Autoprefixer, etc.\par
+\par
+\b\f1\fs28\u-10178?\u-8719?\f2  \f0 Example Usage:\b0\fs24\par
+\par
+`bash\par
+postcss styles.css -o output.css\par
+\b\fs28\par
+\f2  \f3\u-10179?\u-8986?\f2  \f0 Typical PostCSS Config (`postcss.config.js`):\par
+\b0\fs24\par
+```js\par
+module.exports = \{\par
+  plugins: [\par
+    require('tailwindcss'),\par
+    require('autoprefixer')\par
+  ]\par
+\};\par
+\b\fs28\par
+ Autoprefixer: Add Vendor Prefixes**\par
+\b0\fs24\par
+**Autoprefixer** is a PostCSS plugin that automatically adds vendor-specific prefixes to your CSS for better browser support.\par
+\par
+\b\f2   \f4\u9989?\f2  \f0 Example:\par
+\b0\par
+Write:\par
+\par
+```css\par
+.box \{\par
+  display: flex;\par
+\}\par
+  \par
+\par
+Autoprefixer outputs:\par
+\par
+```css\par
+.box \{\par
+  display: -webkit-box;\par
+  display: -ms-flexbox;\par
+  display: flex;\par
+\}\par
+ \par
+\par
+\b\f2\fs28  \f1\u9881?\u-497?\f2  \f0 Integration:\b0\fs24\par
+\par
+Autoprefixer works with:\par
+\par
+* PostCSS\par
+* Tailwind builds\par
+* Webpack, Vite, and other bundlers\par
+\par
+   \par
+\par
+ \par
+\par
+\b  \par
+\f2\fs32  \f1\u-10178?\u-8723?\f2  \f0 Z-Index & Float in CSS\par
+\b0\fs24\par
+\par
+\b\f2  \f1\u-10179?\u-8766?\u-497?\f2  \f0 1. Z-Index: Control Stack Order\b0\par
+\par
+The `z-index` property controls the vertical stacking of overlapping elements.\par
+\b\f2\fs28  \f4\u9989?\f2  \f0 Rule:\b0\fs24\par
+\par
+Higher `z-index` value = appears on top\par
+* Works only on positioned elements** (`relative`, `absolute`, `fixed`, or `sticky`)\par
+\b\f2  \f1\u-10178?\u-8726?\f2  \f0 Example:\b0\par
+```html\par
+<style>\par
+  .box1 \{\par
+    position: absolute;\par
+    z-index: 1;\par
+    background: red;\par
+    width: 100px; height: 100px;\par
+  \}\par
+\par
+  .box2 \{\par
+    position: absolute;\par
+    z-index: 2;\par
+    background: blue;\par
+    width: 100px; height: 100px;\par
+    top: 20px; left: 20px;\par
+  \}\par
+</style>\par
+\par
+<div class="box1"></div>\par
+<div class="box2"></div>\par
+```\par
+\par
+\b\f3\fs36\u-10179?\u-8907?\f2  \f0 Blue box appears **on top of** red box.\b0\par
+\fs24\par
+\par
+\b\f2\fs28  \f1\u-10178?\u-8723?\f2  \f0 2. Float: Position Elements Horizontally**\par
+\b0\fs24\par
+The `float` property allows elements (usually images or blocks) to "float" to the **left** or **right**, wrapping other content around them.\par
+\par
+\b\f2  \f4\u9989?\f2  \f0 Example:\par
+\b0\par
+```html\par
+<style>\par
+  .image \{\par
+    float: left;\par
+    margin-right: 15px;\par
+  \}\par
+</style>\par
+\par
+<img class="image" src="pic.jpg" width="100">\par
+<p>This text wraps around the image.</p>\par
+```\par
+\par
+\b\f2\fs28  \f3\u-10179?\u-8921?\f2  \f0 Common Values:\b0\par
+\fs24\par
+* `left` \f2\endash  floats to the left\par
+* `right` \endash  floats to the right\par
+* `none` \endash  default (no floating)\par
+* `inherit` \endash  inherits from parent\par
+\par
+\b\f1\fs32\u-10178?\u-8711?\f2  \f0 **3. Clear Float to Fix Layout Issues**\b0\fs24\par
+\par
+After using float, elements below may be pulled up. Use `clear` or clearfix method to fix layout.\par
+\b\f4\u9989?\f2  \f0 `clear` Example:\par
+\b0\par
+```html\par
+<div style="float: left; width: 100px; height: 100px; background: lightblue;"></div>\par
+<div style="clear: both;">This div appears below the floated one.</div>\par
+```\par
+\b\fs32\par
+\f2  \f4\u9989?\f2  \f0 Clearfix Method (modern approach):\par
+\b0\fs24\par
+```html\par
+<style>\par
+  .clearfix::after \{\par
+    content: "";\par
+    display: table;\par
+    clear: both;\par
+  \}\par
+</style>\par
+\par
+<div class="clearfix">\par
+  <div style="float: left;">Left Float</div>\par
+  <div style="float: right;">Right Float</div>\par
+</div>\par
+\par
+\par
+\par
+\par
+\b\fs28 -\par
+\f3\u-10180?\u-8417?\f2  \f0 CSS Effects: Opacity & Transitions\par
+\b0\fs24\par
+\par
+\f2  \b\f1\u-10180?\u-8405?\u-497?\f2  \f0 **1. Opacity Sets Transparency**\b0\par
+\par
+The `opacity` property controls the **transparency level** of an element.\par
+\b\par
+\f2  \f4\u9989?\f2  \f0 Value Range:\par
+\b0\par
+ `0` = fully transparent\par
+`1` = fully opaque\par
+ Any decimal (e.g. `0.5`) = 50% transparent\par
+\par
+\b\f1\u-10178?\u-8726?\f2  \f0 Example:\b0\par
+\par
+```html\par
+<style>\par
+  .transparent-box \{\par
+    width: 200px;\par
+    height: 100px;\par
+    background: black;\par
+    opacity: 0.5;\par
+    color: white;\par
+  \}\par
+</style>\par
+\par
+<div class="transparent-box">50% transparent</div>\par
+\par
+\b\f2\fs28  \f3\u-10179?\u-8959?\f2  \f0 **2. Transitions for Smooth Changes**\par
+\b0\fs24\par
+The `transition` property lets you animate changes to CSS values like `opacity`, `color`, `transform`, etc.\par
+\b\par
+\f2  \f4\u9989?\f2  \f0 Example: Fade on Hover\par
+\b0\par
+```html\par
+<style>\par
+  .fade-box \{\par
+    background: blue;\par
+    color: white;\par
+    padding: 20px;\par
+    opacity: 1;\par
+    transition: opacity 0.4s ease-in-out;\par
+  \}\par
+\par
+  .fade-box:hover \{\par
+    opacity: 0.4;\par
+  \}\par
+</style>\par
+\par
+<div class="fade-box">Hover me to fade</div>\par
+\b\par
+\f1\u9201?\u-497?\f2  \f0 **3. Define Duration & Easing Style**\par
+\b0\par
+\b  Key Properties:\b0\par
+\par
+| Property                     | Description                                                 |\par
+| ---------------------------- | ----------------------------------------------------------- |\par
+| `transition-property`        | CSS property to animate (e.g. `opacity`)                    |\par
+| `transition-duration`        | Time in `s` or `ms` (e.g. `0.5s`)                           |\par
+| `transition-timing-function` | Defines the speed curve (`ease`, `linear`, `ease-in`, etc.) |\par
+| `transition-delay`           | Delay before starting the transition                        |\par
+\par
+\b\f2\fs28  \f1\u-10178?\u-8726?\f2  \f0 Full Example:\par
+\b0\fs24\par
+```css\par
+transition: opacity 0.3s ease-in 0.1s;\par
+ \par
+\par
+\b\f2  \f3\u-10180?\u-8280?\f2  \f0 **4. Enhance User Experience with Effects**\b0\par
+\par
+Using transitions and opacity:\par
+* Makes UI **feel smoother and more interactive**\par
+* Improves **accessibility** and **user feedback**\par
+* Adds visual clarity (e.g., fade tooltips, popups, buttons)\par
+\par
+\b\f2  \f4\u9989?\f2  \f0 Button Example with Opacity + Transition:\par
+\b0\par
+```html\par
+<style>\par
+  .btn \{\par
+    background: green;\par
+    color: white;\par
+    padding: 10px 20px;\par
+    opacity: 1;\par
+    transition: opacity 0.3s ease;\par
+  \}\par
+\par
+  .btn:hover \{\par
+    opacity: 0.7;\par
+  \}\par
+</style>\par
+\par
+<button class="btn">Hover Me</button>\par
+ \par
+\par
+\b\f3\fs32\u-10179?\u-8998?\f2  \f0 Detailed Web Development Notes\par
+\b0\fs24\par
+\b\f2\fs36  \f3\u-10180?\u-8273?\f2  \f0 CSS 2D Transforms\par
+\b0\fs24\par
+CSS 2D transforms allow you to manipulate elements in two-dimensional space without affecting the document flow. These transforms can move, rotate, resize, or skew elements to create dynamic and engaging layouts or animations.\par
+ **`translate(x, y)`**   Moves (shifts) an element along the horizontal (X) and vertical (Y) axes by specified lengths. This visually repositions the element but does not change its actual document flow position. `transform: translate(50px, 20px);`\f2  moves the element 50 pixels right and 20 pixels down \par
+**`rotate(angle)`**  Rotates the element clockwise or counterclockwise around its center point by a specified angle in degrees. `transform: rotate(45deg);` spins the element 45 degrees clockwise                       \par
+**`scale(x, y)`**  Resizes the element by scaling it horizontally and vertically. Values >1 enlarge, values <1 shrink`transform: scale(1.5, 0.8);` \emdash  1.5 times wider, 80% of original height  **`skew(x-angle, y-angle)`** Tilts the element by skewing it along the X and/or Y axes, creating a slanted effect. Useful for stylized effects.   `transform: skew(20deg, 10deg);` skews 20 degrees along X-axis, 10 degrees along Y-axis  \par
+\par
+**Note:** Multiple transforms can be combined by separating them with spaces:\par
+\par
+```css\par
+transform: translate(20px, 20px) rotate(10deg) scale(1.2);\par
+```\par
+\par
+Transforms are hardware accelerated and performant for animations.\par
+\par
+---\par
+\par
+\b\f1\fs28\u-10180?\u-8290?\u-497?\f2  \f0 CSS Animations Using `@keyframes`\b0\fs24\par
+\par
+CSS animations let you change CSS property values over time, allowing for smooth and engaging effects without JavaScript.\par
+\par
+* **`@keyframes`** define the stages of the animation by specifying CSS property values at various points (usually `from`/`to` or percentages).\par
+\par
+Example: Fading in an element gradually\par
+\par
+```css\par
+@keyframes fadeIn \{\par
+  from \{ opacity: 0; \}\par
+  to \{ opacity: 1; \}\par
+\}\par
+\par
+.element \{\par
+  animation-name: fadeIn;\par
+  animation-duration: 2s;\par
+  animation-timing-function: ease-in-out;\par
+  animation-iteration-count: infinite; /* loops forever */\par
+\}\par
+```\par
+\par
+ \b\fs32 Key animation properties:\b0\fs24\par
+\par
+* `animation-name` \f2\emdash  links to the `@keyframes` block.\par
+* `animation-duration` \emdash  length of time for one cycle.\par
+* `animation-delay` \emdash  time to wait before starting.\par
+* `animation-iteration-count` \emdash  how many times the animation runs (`infinite` for looping).\par
+* `animation-timing-function` \emdash  controls pacing (`linear`, `ease`, `ease-in-out`, etc.).\par
+\par
+**Animations can target various properties:** colors, position (`left`, `top`), size (`width`, `height`), transforms, opacity, shadows, and more.\par
+\par
+\f0  \f2\par
+\par
+\b\fs36   \f1\u-10178?\u-8719?\f2  \f0 Bootstrap CSS Framework\par
+\b0\fs24\par
+Bootstrap is a widely-used front-end framework designed to help developers create **responsive, mobile-first** websites quickly using pre-built CSS and JavaScript components.\par
+\b\fs32\par
+  Why use Bootstrap?\par
+\b0\fs24\par
+* Speeds up development by providing ready-made UI components.\par
+* Ensures consistent design across devices.\par
+* Offers a flexible grid system that adapts layouts for different screen sizes.\par
+* Provides accessibility-friendly components.\par
+\par
+\b\fs36   Bootstrap Grid System\b0\fs24\par
+\par
+The grid system is based on a 12-column layout:\par
+\par
+* You place content inside **containers** \f5\u8594?\f2  \f0 **rows** \f5\u8594?\f2  \f0 **columns**.\par
+* Columns add up to 12 units per row.\par
+* You define how many columns an element should span at different breakpoints (e.g., `.col-md-6` spans 6 columns on medium screens).\par
+\par
+Example layout with two equal-width columns:\par
+\par
+```html\par
+<div class="container">\par
+  <div class="row">\par
+    <div class="col-md-6">Left Side</div>\par
+    <div class="col-md-6">Right Side</div>\par
+  </div>\par
+</div>\par
+ \par
+\b\fs28\par
+ Responsive Design Features\par
+\b0\fs24\par
+* Uses **fluid grids** that resize with the viewport.\par
+* Breakpoints for small (sm), medium (md), large (lg), and extra-large (xl) devices allow precise control.\par
+* Components like **buttons, navbars, modals, and cards** automatically adapt their layout.\par
+\par
+\b ---\par
+\par
+  Bootstrap Forms & Modals\par
+\b0\par
+ \b\fs32 Forms\b0\fs24  \par
+Bootstrap styles forms to be responsive and accessible, providing uniform styles across browsers. You get styled input fields, labels, validation feedback, and layouts.\par
+\par
+Example:\par
+\par
+```html\par
+<form>\par
+  <input type="email" class="form-control" placeholder="Email address">\par
+</form>\par
+```\par
+\par
+\b\fs36  Modals \b0\fs24\par
+Modals are overlays used for dialogs, pop-ups, or content that requires user interaction.\par
+\par
+Example modal trigger and markup:\par
+\par
+```html\par
+<button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Open Modal</button>\par
+\par
+<div class="modal fade" id="exampleModal">\par
+  <div class="modal-dialog">\par
+    <div class="modal-content">\par
+      <!-- Modal content here -->\par
+    </div>\par
+  </div>\par
+</div>\par
+```\par
+\par
+You can customize Bootstrap\f2\rquote\f0 s default look with your own CSS or by modifying Sass variables.\par
+\par
+ \par
+\par
+\b\f2\fs28   \f1\u-10178?\u-8736?\f2  \f0 JavaScript Fundamentals\par
+\b0\fs24\par
+\b\fs32   Variables\par
+\b0\fs24\par
+* Declared with:\par
+\par
+  * `let` \f2\emdash  block-scoped, can be reassigned.\par
+  * `const` \emdash  block-scoped, cannot be reassigned (constant).\par
+  * `var` \emdash  function-scoped (older, avoid in modern code).\par
+\par
+Example:\par
+\par
+```js\par
+let username = "Alice";\par
+const pi = 3.14159;\par
+```\b\fs32\par
+\par
+\f0\lang1033  \f2  Data Types\par
+\b0\fs24\par
+* Common primitive types: `string`, `number`, `boolean`, `null`, `undefined`\par
+* Complex types: `object`, `array`, `function`\par
+\par
+\b\f0\fs36\lang1033  \f2  Functions\par
+\b0\fs24\par
+Functions are reusable blocks of code performing tasks or returning values.\par
+\par
+Example:\par
+\par
+```js\par
+function greet(name) \{\par
+  return `Hello, $\{name\}!`;\par
+\}\par
+\f0\lang1033  \f2\par
+\par
+\b\f0\fs40\lang1033  \f2  Scope\b0\fs24\par
+\par
+\b Defines the accessibility of variables.\par
+\b0\par
+\f0\lang1033  \f2 Global scope**: variables accessible anywhere.\par
+\f0\lang1033  \f2 Local scope**: variables accessible only inside functions or blocks.\par
+\par
+Example:\par
+\par
+```js\par
+function example() \{\par
+  let localVar = 10;  // local scope\par
+  console.log(localVar);\par
+\}\par
+\f0\lang1033  \f2\par
+\par
+\b\f0\lang1033  \f2  \fs28 Closures\b0\fs24\par
+\par
+A closure is a function that retains access to variables from its outer (enclosing) scope even after that outer function has returned.\par
+\par
+Example:\par
+\par
+```js\par
+function counter() \{\par
+  let count = 0;\par
+  return function() \{\par
+    count++;\par
+    return count;\par
+  \};\par
+\}\par
+\par
+const increment = counter();\par
+console.log(increment()); // 1\par
+console.log(increment()); // 2\par
+```\par
+\par
+\b Closures enable powerful patterns like data encapsulation and function factories.\par
+\b0\par
+\par
+\f0\lang1033  \par
+\par
+\b\f3\fs36\u-10179?\u-9000?\f6  \f0 Modern\f7  \f0 JavaScript\f7  & \f0 Web\f7  \f0 Development\f7  \f0 Notes\par
+\b0\fs24\par
+\b\f4\fs32\u9889?\f6  \f0 Modern\f7  \f0 JavaScript\f7  \f0 Features\par
+\par
+\f7  \f0 1\f7 . \f0 Arrow\f7  \f0 Functions\par
+\b0\fs24\par
+*\f7  \f0 Concise\f7  \f0 function\f7  \f0 syntax\f7  \f0 introduced\f7  \f0 in\f7  \f0 ES6\f7 .\f0\par
+*\f7  \f0 Implicit\f7  \f0 `return`\f7  \f0 if\f7  \f0 no\f7  \f0 braces\f7 .\f0\par
+*\f7  \f0 **`this`**\f7  \f0 is\f7  \f0 lexically\f7  \f0 scoped\f7  (\f0 inherits\f7  \f0 from\f7  \f0 surrounding\f7  \f0 code\f7 ).\f0\par
+\par
+```js\par
+const\f7  \f0 add\f7  = (\f0 a\f7 , \f0 b\f7 ) => \f0 a\f7  + \f0 b\f7 ;\f0\par
+```\par
+\f7\fs32  \b\f0 Spread\f7  \f0 and\f7  \f0 Rest\f7  \f0 Operators\f7  (\f0 `\f7 ...\f0 `\f7 )\b0\f0\par
+\fs24\par
+*\f7  \f0 **Spread**\f7  \f0 expands\f7  \f0 an\f7  \f0 array\f7  \f0 or\f7  \f0 object\f7  \f0 into\f7  \f0 individual\f7  \f0 elements\f7 .\f0\par
+*\f7  \f0 **Rest**\f7  \f0 collects\f7  \f0 multiple\f7  \f0 elements\f7  \f0 into\f7  \f0 an\f7  \f0 array\f7  \f0 parameter\f7 .\f0\par
+\par
+```js\par
+\f7 // \f0 Spread\f7  \f0 example\f7  (\f0 copy\f7  \f0 array\f7 )\f0\par
+const\f7  \f0 arr1\f7  = [\f0 1\f7 , \f0 2\f7 ];\f0\par
+const\f7  \f0 arr2\f7  = [...\f0 arr1\f7 , \f0 3\f7 , \f0 4\f7 ]; // [\f0 1\f7 , \f0 2\f7 , \f0 3\f7 , \f0 4\f7 ]\f0\par
+\par
+\f7 // \f0 Rest\f7  \f0 example\f7  (\f0 function\f7  \f0 arguments\f7 )\f0\par
+function\f7  \f0 sum\f7 (...\f0 nums\f7 ) \{\f0\par
+\f7   \f0 return\f7  \f0 nums\f7 .\f0 reduce\f7 ((\f0 a\f7 , \f0 b\f7 ) => \f0 a\f7  + \f0 b\f7 , \f0 0\f7 );\f0\par
+\f7\}\f0\par
+```\par
+\f7  \b\f0\fs32 Destructuring\b0\fs24\par
+*\f7  \f0 Extract\f7  \f0 values\f7  \f0 from\f7  \f0 arrays\f7  \f0 or\f7  \f0 objects\f7  \f0 into\f7  \f0 variables\f7  \f0 easily\f7 .\f0\par
+\par
+```js\par
+const\f7  [\f0 first\f7 , \f0 second\f7 ] = [\f0 10\f7 , \f0 20\f7 ];\f0\par
+const\f7  \{\f0 name\f7 , \f0 age\f7\} = \{\f0 name\f7 : \f0 "Alice"\f7 , \f0 age\f7 : \f0 25\f7\};\f0\par
+```\par
+\f7  \b\f0\fs32 Promises\b0\fs24\par
+\par
+*\f7  \f0 Manage\f7  \f0 asynchronous\f7  \f0 operations\f7 .\f0\par
+*\f7  \f0 States\f7 : \f0 **pending**\f7 , \f0 **fulfilled**\f7 , \f0 **rejected**\f7 .\f0\par
+\par
+```js\par
+fetch\f7 (\f0 'url'\f7 )\f0\par
+\f7   .\f0 then\f7 (\f0 response\f7  => \f0 response\f7 .\f0 json\f7 ())\f0\par
+\f7   .\f0 then\f7 (\f0 data\f7  => \f0 console\f7 .\f0 log\f7 (\f0 data\f7 ))\f0\par
+\f7   .\f0 catch\f7 (\f0 error\f7  => \f0 console\f7 .\f0 error\f7 (\f0 error\f7 ));\f0\par
+```\par
+\par
+\b\fs36 Async\f7 /\f0 Await\b0\fs24\par
+\par
+*\f7  \f0 Syntactic\f7  \f0 sugar\f7  \f0 over\f7  \f0 Promises\f7 .\f0\par
+*\f7  \f0 Write\f7  \f0 async\f7  \f0 code\f7  \f0 that\f7  \f0 looks\f7  \f0 synchronous\f7 .\f0\par
+\par
+```js\par
+async\f7  \f0 function\f7  \f0 fetchData\f7 () \{\f0\par
+\f7   \f0 try\f7  \{\f0\par
+\f7     \f0 const\f7  \f0 response\f7  = \f0 await\f7  \f0 fetch\f7 (\f0 'url'\f7 );\f0\par
+\f7     \f0 const\f7  \f0 data\f7  = \f0 await\f7  \f0 response\f7 .\f0 json\f7 ();\f0\par
+\f7     \f0 console\f7 .\f0 log\f7 (\f0 data\f7 );\f0\par
+\f7   \} \f0 catch\f7  (\f0 error\f7 ) \{\f0\par
+\f7     \f0 console\f7 .\f0 error\f7 (\f0 error\f7 );\f0\par
+\f7   \}\f0\par
+\f7\}\f0\par
+```\par
+\par
+\b\f6\fs36  \f3\u-10180?\u-8432?\f6  \f0 DOM\f7  \f0 Manipulation\f7  & \f0 Web\f7  \f0 APIs\par
+\b0\fs24\par
+\b\f7\fs32  \f0 Query\f7  \f0 Selectors\b0\fs24\par
+\par
+*\f7  \f0 Select\f7  \f0 elements\f7  \f0 from\f7  \f0 DOM\f7  \f0 using\f7  \f0 CSS\f7  \f0 selectors\f7 .\f0\par
+\par
+```js\par
+const\f7  \f0 btn\f7  = \f0 document\f7 .\f0 querySelector\f7 (\f0 '\f7 .\f0 btn'\f7 );\f0\par
+const\f7  \f0 allItems\f7  = \f0 document\f7 .\f0 querySelectorAll\f7 (\f0 'li'\f7 );\f0\par
+```\par
+\par
+\f7 ---\f0\par
+\b\fs32\par
+\f7   \f0 Events\par
+\b0\fs24\par
+*\f7  \f0 Respond\f7  \f0 to\f7  \f0 user\f7  \f0 actions\f7  \f0 like\f7  \f0 clicks\f7 , \f0 input\f7 , \f0 etc\f7 .\f0\par
+\par
+```js\par
+btn\f7 .\f0 addEventListener\f7 (\f0 'click'\f7 , () => \f0 alert\f7 (\f0 'Clicked\f7 !\f0 '\f7 ));\f0\par
+```\par
+\b\fs28 8\f7 . \f0 Attributes\f7  & \f0 ClassList\b0\fs24\par
+\par
+*\f7  \f0 Change\f7  \f0 element\f7  \f0 attributes\f7  \f0 or\f7  \f0 manage\f7  \f0 CSS\f7  \f0 classes\f7  \f0 dynamically\f7 .\f0\par
+\par
+```js\par
+btn\f7 .\f0 setAttribute\f7 (\f0 'disabled'\f7 , \f0 true\f7 );\f0\par
+btn\f7 .\f0 classList\f7 .\f0 add\f7 (\f0 'active'\f7 );\f0\par
+btn\f7 .\f0 classList\f7 .\f0 remove\f7 (\f0 'hidden'\f7 );\f0\par
+btn\f7 .\f0 classList\f7 .\f0 toggle\f7 (\f0 'highlight'\f7 );\f0\par
+\par
+\b\f7\fs32  \f0 Dataset\b0\fs24\par
+\par
+*\f7  \f0 Store\f7 /\f0 read\f7  \f0 custom\f7  \f0 data\f7  \f0 attributes\f7  \f0 on\f7  \f0 elements\f7 .\f0\par
+\par
+```js\par
+\f7 <\f0 div\f7  \f0 data\f7 -\f0 user\f7 -\f0 id\f7 =\f0 "123"\f7 ></\f0 div\f7 >\f0\par
+\par
+const\f7  \f0 div\f7  = \f0 document\f7 .\f0 querySelector\f7 (\f0 'div'\f7 );\f0\par
+console\f7 .\f0 log\f7 (\f0 div\f7 .\f0 dataset\f7 .\f0 userId\f7 ); // \f0 "123"\par
+```\b\fs32\par
+\par
+\f7   \f0 localStorage\par
+\b0\fs24\par
+*\f7  \f0 Save\f7  \f0 and\f7  \f0 retrieve\f7  \f0 data\f7  \f0 locally\f7  \f0 in\f7  \f0 the\f7  \f0 browser\f7  (\f0 persists\f7  \f0 after\f7  \f0 reload\f7 ).\f0\par
+\par
+```js\par
+localStorage\f7 .\f0 setItem\f7 (\f0 'name'\f7 , \f0 'Alice'\f7 );\f0\par
+const\f7  \f0 name\f7  = \f0 localStorage\f7 .\f0 getItem\f7 (\f0 'name'\f7 );\f0\par
+```\par
+\par
+\b\f7\fs32 . \f0 Fetch\f7  \f0 API\par
+\b0\fs24\par
+*\f7  \f0 Modern\f7  \f0 way\f7  \f0 to\f7  \f0 make\f7  \f0 HTTP\f7  \f0 requests\f7 .\f0\par
+*\f7  \f0 Returns\f7  \f0 a\f7  \f0 Promise\f7 .\f0\par
+*\f7  \f0 Use\f7  \f0 with\f7  \f0 async\f7 /\f0 await\f7  \f0 and\f7  \f0 error\f7  \f0 handling\f7 .\f0\par
+\b\par
+\f7\fs32  \f0 FormData\fs24\par
+\b0\par
+*\f7  \f0 Easily\f7  \f0 construct\f7  \f0 key\f7 /\f0 value\f7  \f0 pairs\f7  \f0 for\f7  \f0 form\f7  \f0 submissions\f7 .\f0\par
+\par
+```js\par
+const\f7  \f0 form\f7  = \f0 document\f7 .\f0 querySelector\f7 (\f0 'form'\f7 );\f0\par
+const\f7  \f0 formData\f7  = \f0 new\f7  \f0 FormData\f7 (\f0 form\f7 );\f0\par
+```\par
+\par
+\f7 ---\f0\par
+\b\fs32\par
+\f7  \f0 Drag\f7 -\f0 and\f7 -\f0 Drop\f7  \f0 API\par
+\b0\fs24\par
+*\f7  \f0 Enables\f7  \f0 interactive\f7  \f0 dragging\f7  \f0 UI\f7 .\f0\par
+\par
+```js\par
+element\f7 .\f0 addEventListener\f7 (\f0 'dragstart'\f7 , \f0 e\f7  => \{ ... \});\f0\par
+\par
+\b\f1\fs28\u-10179?\u-8480?\u-497?\f6  \f0 Modern\f7  \f0 Tooling\f7  & \f0 Modules\b0\fs24\par
+\par
+\f7  \b\f0\fs32 ES\f7  \f0 Modules\b0\fs24\par
+\par
+*\f7  \f0 Use\f7  \f0 `import`\f7  \f0 and\f7  \f0 `export`\f7  \f0 to\f7  \f0 organize\f7  \f0 JS\f7  \f0 code\f7 .\f0\par
+\par
+```js\par
+\f7 // \f0 math\f7 .\f0 js\par
+export\f7  \f0 function\f7  \f0 add\f7 (\f0 a\f7 , \f0 b\f7 ) \{ \f0 return\f7  \f0 a\f7  + \f0 b\f7 ; \}\f0\par
+\par
+\f7 // \f0 main\f7 .\f0 js\par
+import\f7  \{ \f0 add\f7  \} \f0 from\f7  \f0 '\f7 ./\f0 math\f7 .\f0 js'\f7 ;\f0\par
+\b\f7   \f0 Babel\b0\par
+Transpiles\f7  \f0 modern\f7  \f0 JS\f7  \f0 to\f7  \f0 older\f7  \f0 syntax\f7  \f0 for\f7  \f0 browser\f7  \f0 compatibility\f7 .\f0\lang1033\par
+\par
+\b\fs32 Bundlers\f7 : \f0 Parcel\f7 , \f0 Vite\b0\fs24\par
+\par
+*\f7  \f0 Tools\f7  \f0 that\f7  \f0 bundle\f7  \f0 JS\f7 /\f0 CSS\f7 /\f0 assets\f7  \f0 to\f7  \f0 optimize\f7  \f0 loading\f7  \f0 and\f7  \f0 development\f7  \f0 speed\f7 .\f0\par
+*\f7  \f0 Support\f7  \f0 hot\f7  \f0 module\f7  \f0 replacement\f7 , \f0 fast\f7  \f0 rebuilds\f7 .\f0\par
+\par
+\b\f6\fs32  \f1\u-10178?\u-8727?\f6  \f0 Data\f7  \f0 Structures\f7  & \f0 Concepts\b0\fs24\par
+\par
+\f7  \b\f0\fs32 Arrays\f7  & \f0 Objects\b0\fs24\par
+\par
+*\f7  \f0 Arrays\f7 : \f0 ordered\f7  \f0 collections\f7 , \f0 use\f7  \f0 methods\f7  \f0 like\f7  \f0 `\f7 .\f0 push\f7 ()\f0 `\f7 , \f0 `\f7 .\f0 pop\f7 ()\f0 `\f7 , \f0 `\f7 .\f0 map\f7 ()\f0 `\f7 .\f0\par
+*\f7  \f0 Objects\f7 : \f0 key\f7 -\f0 value\f7  \f0 pairs\f7 , \f0 access\f7  \f0 with\f7  \f0 dot\f7  \f0 or\f7  \f0 bracket\f7  \f0 notation\f7 .\f0\par
+\par
+\b\fs32  Hoisting\par
+\b0\fs24\par
+*\f7  \f0 JS\f7  \f0 moves\f7  \f0 variable\f7  \f0 and\f7  \f0 function\f7  \f0 declarations\f7  \f0 to\f7  \f0 top\f7  \f0 during\f7  \f0 compilation\f7 .\f0\par
+*\f7  \f0 `var`\f7  \f0 declarations\f7  \f0 are\f7  \f0 hoisted\f7  \f0 with\f7  \f0 undefined\f7  \f0 value\f7 .\f0\par
+*\f7  \f0 `let`\f7  \f0 and\f7  \f0 `const`\f7  \f0 are\f7  \f0 hoisted\f7  \f0 but\f7  \f0 not\f7  \f0 initialized\f7  (\f0 temporal\f7  \f0 dead\f7  \f0 zone\f7 ).\f0\par
+ \par
+\par
+\b\f3\fs32\u-10179?\u-8923?\f6  \f0 React\f7  \f0 Basics\f7  (\f0 JSX\f7  & \f0 Hooks\f7 )\f0\par
+\b0\fs24 19\f7 . \f0 JSX\par
+\par
+*\f7  \f0 JavaScript\f7  \f0 syntax\f7  \f0 extension\f7  \f0 that\f7  \f0 looks\f7  \f0 like\f7  \f0 HTML\f7 .\f0\par
+*\f7  \f0 Used\f7  \f0 to\f7  \f0 define\f7  \f0 React\f7  \f0 components\f2\rquote\f6  \f0 UI\f7 .\f0\par
+\par
+```jsx\par
+const\f7  \f0 element\f7  = <\f0 h1\f7 >\f0 Hello\f7 , \f0 world\f7 !</\f0 h1\f7 >;\f0\par
+```\par
+\par
+\b\fs32 Components\b0\fs24\par
+*\f7  \f0 Reusable\f7  \f0 UI\f7  \f0 building\f7  \f0 blocks\f7 .\f0\par
+*\f7  \f0 Function\f7  \f0 components\f7  \f0 receive\f7  \f0 `props`\f7  \f0 as\f7  \f0 input\f7 .\f0\par
+\par
+\b\f7\fs36  \f0 Props\b0\fs24\par
+*Data\f7  \f0 passed\f7  \f0 from\f7  \f0 parent\f7  \f0 to\f7  \f0 child\f7  \f0 components\f7 .\f0\par
+\b\f7\fs32   \f0 State\b0\fs24\par
+*\f7  \f0 Internal\f7  \f0 data\f7  \f0 of\f7  \f0 a\f7  \f0 component\f7  \f0 that\f7  \f0 can\f7  \f0 change\f7  \f0 over\f7  \f0 time\f7 .\b\f0\fs32\par
+\f7  \f0 23\f7 . \f0 Hooks\f7 : \f0 `useState`\f7  \f0 and\f7  \f0 `useEffect`\b0\fs24\par
+\par
+*\f7  \f0 `useState`\f7 : \f0 manages\f7  \f0 component\f7  \f0 state\f7 .\f0\par
+\par
+```jsx\par
+const\f7  [\f0 count\f7 , \f0 setCount\f7 ] = \f0 useState\f7 (\f0 0\f7 );\f0\par
+```\par
+\par
+*\f7  \f0 `useEffect`\f7 : \f0 runs\f7  \f0 side\f7  \f0 effects\f7  \f0 like\f7  \f0 data\f7  \f0 fetching\f7  \f0 or\f7  \f0 subscriptions\f7 .\f0\par
+\par
+```jsx\par
+useEffect\f7 (() => \{\f0\par
+\f7   // \f0 runs\f7  \f0 after\f7  \f0 component\f7  \f0 mounts\f7  \f0 or\f7  \f0 updates\par
+\f7\}, [\f0 dependencies\f7 ]);\f0\par
+```\par
+\f7\par
+\par
+\par
+\b\f3\fs36\u-10179?\u-8999?\f6  \f7 React Advanced Concepts Notes (Expanded)\b0\fs24\par
+\par
+\b\f6\fs36  \f1\u9883?\u-497?\f6  \f7 React State Management & Hooks\par
+\fs32 `useContext`\b0\fs24\par
+\par
+* The Context API allows components to share values like themes, user info, or settings without manually passing props through every level.\par
+* This avoids \f6\ldblquote\f7 prop drilling,\f6\rdblquote  \f7 which is passing props through many intermediate components unnecessarily.\par
+* Using `useContext` hook, any component within the context provider\f6\rquote\f7 s tree can consume the shared value directly, making the app easier to maintain and less cluttered.\par
+\par
+Example:\par
+\par
+```jsx\par
+const ThemeContext = React.createContext('light');\par
+\par
+function App() \{\par
+  return (\par
+    <ThemeContext.Provider value="dark">\par
+      <Toolbar />\par
+    </ThemeContext.Provider>\par
+  );\par
+\}\par
+\par
+function Toolbar() \{\par
+  const theme = React.useContext(ThemeContext);\par
+  return <div className=\{`toolbar $\{theme\}`\}>Current theme: \{theme\}</div>;\par
+\}\par
+```\par
+\par
+Here, `Toolbar` accesses the `theme` directly without prop passing.\par
+\par
+---\par
+\b\fs32 `useReducer`\b0\fs24\par
+\par
+* For complex state logic involving multiple related state variables or when the next state depends on the previous state, `useReducer` is preferred over multiple `useState` calls.\par
+* It uses a **reducer function** that takes current state and an action, then returns a new state based on the action.\par
+* This pattern resembles Redux but is built into React.\par
+\par
+Benefits:\par
+\par
+* Centralizes state updates.\par
+* Makes state transitions predictable.\par
+* Simplifies debugging and testing.\par
+\par
+Example:\par
+\par
+```jsx\par
+const initialState = \{ count: 0 \};\par
+\par
+function reducer(state, action) \{\par
+  switch (action.type) \{\par
+    case 'increment': return \{ count: state.count + 1 \};\par
+    case 'decrement': return \{ count: state.count - 1 \};\par
+    default: return state;\par
+  \}\par
+\}\par
+\par
+function Counter() \{\par
+  const [state, dispatch] = React.useReducer(reducer, initialState);\par
+\par
+  return (\par
+    <>\par
+      <button onClick=\{() => dispatch(\{ type: 'decrement' \})\}>-</button>\par
+      <span>\{state.count\}</span>\par
+      <button onClick=\{() => dispatch(\{ type: 'increment' \})\}>+</button>\par
+    </>\par
+  );\par
+\}\par
+```\par
+\par
+---\par
+\b\fs32  Custom Hooks\b0\fs24\par
+\par
+* Custom hooks are reusable functions prefixed with `use` that encapsulate common stateful logic.\par
+* They allow you to abstract and share logic between components without duplicating code.\par
+* Helps keep components clean and focused on rendering UI.\par
+\par
+Example: Managing form inputs with a custom hook\par
+\par
+```jsx\par
+function useInput(initialValue) \{\par
+  const [value, setValue] = React.useState(initialValue);\par
+  const onChange = e => setValue(e.target.value);\par
+\par
+  return \{ value, onChange \};\par
+\}\par
+\par
+function Form() \{\par
+  const name = useInput('');\par
+  const email = useInput('');\par
+\par
+  return (\par
+    <form>\par
+      <input type="text" \{...name\} placeholder="Name" />\par
+      <input type="email" \{...email\} placeholder="Email" />\par
+    </form>\par
+  );\par
+\}\par
+```\par
+\par
+This pattern dramatically reduces boilerplate in forms.\par
+\par
+\b\f1\fs36\u-10180?\u-8201?\u-497?\f6  \f7 Props & Data Passing\par
+\b0\fs24\par
+\b\fs32 Props\b0\fs24\par
+\par
+* Props are the primary method of passing data **down the component tree**.\par
+* They make components **configurable and reusable** by allowing parent components to send different data or behavior to children.\par
+* Props are **immutable** inside the child component\f6\emdash\f7 children should never try to modify props directly.\par
+* If the child needs to manage dynamic data, it should use state internally or receive callback props to notify the parent of changes.\par
+\par
+```jsx\par
+function Greeting(\{ name \}) \{\par
+  return <h1>Hello, \{name\}!</h1>;\par
+\}\par
+\par
+<Greeting name="Alice" />\par
+```\par
+\par
+\par
+\par
+\b\fs32 Props Drilling\b0\fs24\par
+\par
+* When many layers of components pass props just to get data from top-level to deeply nested child, it\f6\rquote\f7 s called \f6\ldblquote\f7 props drilling.\f6\rdblquote\f7\par
+* This can make code harder to maintain and read.\par
+* It also leads to unnecessary re-rendering of intermediate components.\par
+\b\fs32 Solutions\b0\fs24 :\par
+\par
+* Use **React Context API** to provide data globally or scoped within a tree.\par
+* Use external state management libraries like **Redux**, **MobX**, or others.\par
+\par
+---\par
+\par
+. \b\fs32 Functional Components and Props\b0\fs24\par
+\par
+* Functional components receive props as their argument (typically destructured).\par
+* They are simpler and easier to test than class components.\par
+* This style encourages pure components that just render UI based on input props.\par
+\par
+```jsx\par
+function Button(\{ label, onClick \}) \{\par
+  return <button onClick=\{onClick\}>\{label\}</button>;\par
+\}\par
+```\par
+\par
+\b\f6\fs32  \f3\u-10180?\u-8432?\f6  \f7 React Router\par
+\b0\fs24\par
+\b Handling Navigation\b0\par
+\par
+* `react-router-dom` is the **de facto standard** library for client-side routing in React web apps.\par
+* It lets you build **single-page applications (SPAs)** where different URLs render different components without reloading the page.\par
+* Routes are declared using `<Route>` components mapping paths to UI components.\par
+* `<Link>` components replace anchor tags to enable navigation while preventing full page reloads.\par
+\b\par
+Example:\par
+\b0\par
+```jsx\par
+import \{ BrowserRouter as Router, Route, Link \} from 'react-router-dom';\par
+\par
+function App() \{\par
+  return (\par
+    <Router>\par
+      <nav>\par
+        <Link to="/">Home</Link> | <Link to="/about">About</Link>\par
+      </nav>\par
+\par
+      <Route exact path="/" component=\{Home\} />\par
+      <Route path="/about" component=\{About\} />\par
+    </Router>\par
+  );\par
+\}\par
+```\par
+\par
+* Smooth transitions between views.\par
+* Enables deep linking and bookmarking.\par
+* Supports nested routes and dynamic parameters.\par
+\par
+\f6  \b\f1\fs36\u-10179?\u-8480?\u-497?\f6  \f7 JavaScript Destructuring\b0\fs24\par
+\par
+\b\fs32  Array Destructuring\b0\fs24\par
+\par
+* Simplifies extracting multiple values from arrays into variables.\par
+* Reduces code verbosity and improves readability.\par
+\par
+```js\par
+const [first, second, third] = ['apple', 'banana', 'cherry'];\par
+```\par
+\b\fs32\par
+ 9. Object Destructuring\par
+\b0\fs24\par
+* Extract specific properties from objects.\par
+* Can rename variables or provide default values.\par
+* Essential for working with complex nested data.\par
+\par
+```js\par
+const user = \{ name: 'Bob', age: 30, location: 'NYC' \};\par
+const \{ name, location: city, email = 'N/A' \} = user;\par
+```\par
+\par
+---\par
+\par
+\b\f3\fs32\u-10179?\u-8956?\f6  \f7 React Hooks Overview\b0\fs24\par
+\par
+\b  10. Hooks Benefits\b0\par
+\par
+ Hooks like `useState` and `useEffect` allow functional components to have **state and lifecycle features** without classes.`useEffect` replaces lifecycle methods (`componentDidMount`, `componentDidUpdate`, `componentWillUnmount`) and handles side effects like data fetching or subscriptions. Hooks encourage better code reuse through custom hooks Reduce boilerplate and make component logic more intuitive and declarative.\par
+Example of side effects with `useEffect`:\par
+\par
+```jsx\par
+function Timer() \{\par
+  const [seconds, setSeconds] = React.useState(0);\par
+\par
+  React.useEffect(() => \{\par
+    const interval = setInterval(() => setSeconds(s => s + 1), 1000);\par
+    return () => clearInterval(interval); // cleanup when unmounted\par
+  \}, []); // empty dependency array = runs once after mount\par
+\par
+  return <div>Seconds: \{seconds\}</div>;\par
+\}\par
+ \par
+\par
+\par
+\par
+\b\f6\fs36  \f3\u-10179?\u-8986?\f6  \f7 Axios \f6\endash  \f7 HTTP Client for JavaScript\par
+\b0\fs24\par
+\b\f6\fs32  \f3\u-10179?\u-8903?\f6  \f7 What is Axios?\b0\fs24\par
+\par
+**Axios** is a popular JavaScript library used to make HTTP requests from the browser (or Node.js). It's built on top of Promises and provides a clean, easy-to-use API for working with APIs or backend services.\par
+\par
+\b\f4\fs36\u9989?\f6  \f7 Why Use Axios?\par
+\b0\fs24\par
+Promise-based**: Works perfectly with `async/await`.\par
+Simple syntax** for common tasks like `GET`, `POST`, `PUT`, `DELETE`.\par
+Automatic JSON parsing** from server responses.\par
+*Built-in **error handling**.\par
+ Easily set **custom headers** (like authentication tokens).\par
+Works well with **React** and other frontend frameworks.\par
+\par
+\b\f6\fs36  \f3\u-10179?\u-8921?\f6  \f7 Installing Axios\par
+\b0\fs24\par
+Install via npm or yarn:\par
+```bash\par
+npm install axios\par
+# or\par
+yarn add axios\par
+```\par
+Then import it:\par
+```js\par
+import axios from 'axios';\par
+```\par
+---\par
+\par
+\b\f3\fs32\u-10179?\u-8903?\f6  \f7 Basic Axios Usage\par
+\b0\fs24\par
+\b\f8\u-10179?\u-8222?\f6  \f7 GET Request\par
+\b0\par
+```js\par
+axios.get('https://api.example.com/users')\par
+  .then(response => console.log(response.data))\par
+  .catch(error => console.error(error));\par
+```\par
+\par
+\b\f6  \f8\u-10179?\u-8224?\f6  \f7 POST Request\par
+\b0\par
+```js\par
+axios.post('https://api.example.com/users', \{\par
+  name: 'Alice',\par
+  age: 25\par
+\})\par
+  .then(response => console.log(response.data))\par
+  .catch(error => console.error(error));\par
+```\par
+\b\f6\fs36  \f3\u-10179?\u-8956?\f6  \f7 Using Axios with `async/await`\par
+\b0\fs24\par
+```js\par
+async function fetchUsers() \{\par
+  try \{\par
+    const response = await axios.get('https://api.example.com/users');\par
+    console.log(response.data);\par
+  \} catch (error) \{\par
+    console.error('Error fetching users:', error.message);\par
+  \}\par
+\}\par
+```\par
+\b\f1\fs32\u9888?\u-497?\f6  \f7 Handling Errors\par
+\b0\fs24\par
+Axios allows detailed error handling:\par
+\par
+```js\par
+try \{\par
+  const response = await axios.get('/api/data');\par
+\} catch (error) \{\par
+  if (error.response) \{\par
+    // Server responded with status code outside 2xx\par
+    console.error('Server Error:', error.response.status);\par
+  \} else if (error.request) \{\par
+    // Request made but no response received\par
+    console.error('No Response:', error.request);\par
+  \} else \{\par
+    // Something else happened\par
+    console.error('Error:', error.message);\par
+  \}\par
+\}\par
+```\par
+\par
+---\par
+\par
+\b\f1\fs32\u-10179?\u-8480?\u-497?\f6  \f7 Axios in React (Example)\par
+\b0\fs24\par
+```jsx\par
+import React, \{ useEffect, useState \} from 'react';\par
+import axios from 'axios';\par
+\par
+function UserList() \{\par
+  const [users, setUsers] = useState([]);\par
+\par
+  useEffect(() => \{\par
+    async function getUsers() \{\par
+      try \{\par
+        const response = await axios.get('https://api.example.com/users');\par
+        setUsers(response.data);\par
+      \} catch (error) \{\par
+        console.error('Failed to fetch users:', error);\par
+      \}\par
+    \}\par
+\par
+    getUsers();\par
+  \}, []);\par
+\par
+  return (\par
+    <ul>\par
+      \{users.map(user => <li key=\{user.id\}>\{user.name\}</li>)\}\par
+    </ul>\par
+  );\par
+\}\par
+\par
+\b\f6\fs36  \f3\u-10179?\u-8944?\f6  \f7 Additional Features\par
+\b0\fs24\par
+* **Set default headers** (e.g., for authentication):\par
+\par
+  ```js\par
+  axios.defaults.headers.common['Authorization'] = 'Bearer token123';\par
+Request/response interceptors** for logging or modifying data.\par
+Cancel tokens** for aborting requests.\par
+\par
+---\par
+\f2\lang1033\par
+}
+ 
